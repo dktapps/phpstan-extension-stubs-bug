@@ -1,0 +1,12 @@
+{
+    "name": "dylan-work/phpstan-playground",
+    "require-dev": {
+        "phpstan/phpstan": "1.9.14"
+    },
+    "require": {},
+    "autoload": {
+	    "psr-4": {
+		    "\\": "src/"
+	    }
+    }
+}

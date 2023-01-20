@@ -1,0 +1,8 @@
+<?php
+
+interface DateTimeImmutable{
+	/**
+	 * @return positive-int|0
+	 */
+	public function getTimestamp() : int;
+}
