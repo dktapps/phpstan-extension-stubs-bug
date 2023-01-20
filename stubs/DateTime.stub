@@ -1,6 +1,6 @@
 <?php
 
-interface DateTimeImmutable{
+interface DateTimeInterface{
 	/**
 	 * @return positive-int
 	 */
