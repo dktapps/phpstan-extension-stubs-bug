@@ -5,4 +5,5 @@ parameters:
 	stubFiles:
 		- stubs/fix-docs.stub
 		- stubs/DateTime.stub
+		- stubs/Error.stub
 
