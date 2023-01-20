@@ -3,4 +3,6 @@ parameters:
 	paths:
 		- src
 	stubFiles:
+		- stubs/fix-docs.stub
 		- stubs/DateTime.stub
+

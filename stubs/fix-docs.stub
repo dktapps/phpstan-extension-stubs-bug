@@ -1,0 +1,9 @@
+<?php
+
+interface Interface1{
+
+	/**
+	 * @phpstan-return positive-int
+	 */
+	public function getThing() : int;
+}

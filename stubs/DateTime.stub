@@ -2,7 +2,7 @@
 
 interface DateTimeImmutable{
 	/**
-	 * @return positive-int|0
+	 * @return positive-int
 	 */
 	public function getTimestamp() : int;
 }
