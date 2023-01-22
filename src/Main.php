@@ -3,8 +3,9 @@
 class Main{
 
 	public function test() : void{
-		\PHPStan\dumpType((new Class1())->getThing());
-		\PHPStan\dumpType((new \DateTime('now'))->getTimestamp());
-		\PHPStan\dumpType((new \Error('now'))->getTraceAsString());
+		$threaded = new Class1();
+		\PHPStan\dumpType($threaded->accepts(function() : int{
+			return 1;
+		}));
 	}
 }

@@ -1,0 +1,12 @@
+<?php
+
+class Threaded{
+
+    /**
+     * @template TReturn
+     * @param callable() : TReturn $function
+     * @param mixed ...$args
+     * @return TReturn
+     */
+    public function synchronized(callable $function, mixed ...$args) : mixed{}
+}

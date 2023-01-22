@@ -1,6 +1,0 @@
-<?php
-
-interface Throwable{
-	/** @return non-empty-string */
-	public function getTraceAsString() : string;
-}

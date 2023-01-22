@@ -1,9 +1,14 @@
 <?php
 
-interface Interface1{
+class Class1{
 
 	/**
-	 * @phpstan-return positive-int
+	 * @template T
+	 * @param callable():T $func
+	 * @param mixed ...$args
+	 * @return T
 	 */
-	public function getThing() : int;
+	public function accepts(callable $func, mixed ...$args) : mixed{
+
+	}
 }
